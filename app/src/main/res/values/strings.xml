@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="about_alc_btn_id">aboutAlcBtn</string>
+    <string name="my_profile_btn_id">myProfileBtn</string>
+    <string name="name">Paul Njoroge</string>
+    <string name="track_android">Track: Android</string>
+    <string name="country">Country: Kenya</string>
+    <string name="email">Email: paulnjoroge789016@gmail.com</string>
+    <string name="phone_number">Phone Number: 0728639992</string>
+    <string name="slack_username">Slack Username: paulo</string>
+    <string name="myphoto">MyPhoto</string>
+</resources>

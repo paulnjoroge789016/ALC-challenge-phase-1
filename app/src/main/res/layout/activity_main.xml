@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="176dp"
+        android:radius="5dp"
+        android:text="@string/welcome_to_alc_4_0"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/aboutAlcBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="@color/textBgColor"
+        android:padding="@dimen/padding"
+        android:text="@string/about_alc"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/myProfileBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:backgroundTint="@color/textBgColor"
+        android:padding="@dimen/padding"
+        android:text="@string/my_profile"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="@+id/aboutAlcBtn"
+        app:layout_constraintStart_toStartOf="@+id/aboutAlcBtn"
+        app:layout_constraintTop_toBottomOf="@+id/aboutAlcBtn" />
+</android.support.constraint.ConstraintLayout>
